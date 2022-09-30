@@ -1,0 +1,19 @@
+/* 
+BOOKING PAGE */
+.booking-page{
+   background-color: #ebebeb;
+}
+
+.btn-group label{
+    border: 2px solid black !important;
+    font-weight: bold;
+}
+.btn-group label:hover{
+    background-color: #e4c360  !important;
+    color: steelblue !important;
+}
+
+.btn-group input:checked:checked + label {
+    background-color: #e4c360  !important;
+    color: steelblue !important;
+  }

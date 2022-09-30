@@ -1,0 +1,197 @@
+/* Structure Styles */
+html,body{
+    margin: 0px;
+    padding: 0px;
+    width: 100%;
+    height: 100% ;
+
+}
+html {
+    scroll-behavior: smooth;
+  }
+body{
+    font-family: 'Epilogue', sans-serif;
+    line-height: 1.4;
+    
+}
+
+/* Custom Button Styles */
+.btn-success{
+    border-color: #006B5A !important;
+    background-color: #006B5A !important;
+  }
+.btn-success:hover{
+    background-color: #014d40 !important;
+}
+.btn-outline-success{
+    border-color: #006B5A !important;
+}
+.btn-outline-success:hover{
+    background-color: #006B5A !important;
+}
+
+.btn-info{
+    background-color: steelblue !important;
+    border-color: steelblue !important;
+}
+.btn-info:hover{
+    background-color: rgb(58, 96, 128) !important;
+}
+.btn-outline-info{
+    border-color: steelblue !important;
+    color: steelblue !important;
+}
+.btn-outline-info:hover{
+    background-color: steelblue !important;
+    color: white !important;
+}
+.btn-warning{
+    background-color: #e4c360 !important;
+    border-color: #e4c360  !important;
+}
+.btn-warning:hover{
+    background-color: #face4a !important;
+}
+.text-warning{
+    color: #e4c360 !important;
+}
+
+/* Navigation bar styles */
+.navbar{
+    background-color: black !important;
+}
+.navbar-toggler{
+    background-color: white !important;
+}
+.navbar-brand{
+    color: steelblue !important;
+}
+.navbar-brand span:last-child{
+    color: steelblue ;
+}
+.navbar-brand i{
+    color: #e4c360 ;
+}
+.navbar-nav a{
+    color: white !important;
+}
+.navbar-nav a:hover{
+    color: #09caef !important;
+}
+
+
+main{
+    min-height: calc(100vh - 500px);
+}
+
+/* Carousel Banner Styles */
+.carousel-img{ 
+    height: 650px !important;
+    background-size: 100% 100% !important;
+    background-repeat: none !important; 
+}
+
+.info-section {
+    margin-top: -160px;
+    position: relative;
+    z-index: 2;
+}
+
+.info-box{
+    border-radius: 100px;
+}
+
+.info-box button{
+    width: 240px;
+}
+
+ul{
+    list-style: none;
+}
+
+
+@media only screen and (max-width: 767px){
+    .carousel-img{ 
+        height: 400px !important;
+    }
+    .info-section {
+        margin-top: -80px;
+    }
+    .info-box{
+        border-radius: 25px;
+    }
+}
+
+@media (min-width: 689px) and (max-width: 1024px){
+    .info-box{
+        border-radius: 25px;
+    }
+}
+
+/* 
+Plans Section Styles */
+.icon-color{
+    color: gold;
+}
+.rating{
+    color : #b4690e;
+    font-weight: bold;
+}
+.fa-star{
+    font-size: 12px;
+}
+.fa-star.empty{
+    color: #AEAEAE;
+    opacity: 0.25;
+}
+.section-title{
+    text-align: center;
+    font-weight: 800;
+    font-size: 42px;
+    margin-bottom: 16px;
+}
+.container{
+    overflow: hidden !important;
+}
+
+/* 
+Staff Section Styles */
+#staff-container .card img{
+    height: 400px;
+    width: 100%;
+}
+
+/* Core Values Section */
+.value{
+    background-color: rgb(236, 239, 241);
+}
+.value i{
+    color: #42ba96;
+    font-size: 36px;
+}
+.value:hover .value-title{
+    color: #42ba96;
+}
+
+
+
+
+/* footer styles */
+footer{
+    margin-top: 120px !important;
+}
+.footer-high{
+    background-color: steelblue;
+    margin-top: -150px !important;
+    border-radius: 12px;
+}
+
+/* Media Query For Phone Device */
+
+@media only screen and (max-width: 688px){
+    .footer-high{
+        margin-top: -200px;
+    }
+}
+
+

@@ -21,7 +21,7 @@ if(isset($_POST['book']))
         if($date < date("Y-m-d")) /// check if date is a past date
         {
             $error = 1;
-            $msg = "Date cann't be less then current date";
+            $msg = "Date cannot be of past";
         }
     }
 
@@ -136,4 +136,3 @@ function isValidID($pid)
     }
 
 }
-?>

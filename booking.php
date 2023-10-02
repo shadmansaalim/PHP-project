@@ -18,13 +18,20 @@
         <section class="my-5">
             <form action="" method="post" id="booking-form" class="col-11 col-md-8 col-lg-6 shadow-lg p-3 p-md-5 rounded-3 mx-auto bg-white">
                 <?php
-                if($msg != "")
-                {
-                    ?>
-                        <div style="background:<?php echo $color ?>; color: white">
-                            <?php echo $msg ?>
-                        </div>
-                    <?php
+                if ($msg != "") {
+                ?>
+                    <script>
+                        window.onload = (event) => {
+                            swal(
+                                "<?php echo ($color == "green") ? "Success" : "Error" ?>!",
+                                "<?php echo $msg ?>",
+                                "<?php echo ($color == "green") ? "success" : "error" ?>"
+                            ).then(function() {
+                                window.location = "booking.php";
+                            });;
+                        };
+                    </script>
+                <?php
                 }
                 ?>
                 <h1 class="text-start login-title mb-5 fw-bold">Book Appointment</h1>
@@ -62,10 +69,14 @@
                     </section>
                 </div>
 
-                <button type="submit" name="book" value="book" class="btn btn-success w-100 mt-5">
-                    Book Appointment <i class="fa-solid fa-right-to-bracket"></i>
-                </button>
-
+                <div class="d-flex flex-column flex-lg-row align-items-center mt-5">
+                    <button type="submit" name="book" value="book" class="btn btn-success w-100 me-lg-2 mb-2 mb-lg-0">
+                        Book Appointment <i class="fa-solid fa-right-to-bracket"></i>
+                    </button>
+                    <button formnovalidate type="submit" name="book" value="book" class="btn btn-success w-100 ms-lg-1">
+                        Book Appointment (Bypass Client) <i class="fa-solid fa-right-to-bracket"></i>
+                    </button>
+                </div>
             </form>
         </section>
     </main>

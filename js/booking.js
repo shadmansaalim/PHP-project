@@ -157,16 +157,16 @@ bookingForm.addEventListener('submit', function bookingSubmit(event) {
 
     // Validating Patient ID
     if (!validatePatientId()) {
-          // Preventing reload
+        // Preventing reload
         event.preventDefault();
-        alert("Please enter a valid patient ID");
+        swal("Invalid ID", "Please enter a valid Patient ID", "error");
         return;
     }
     // Checking whether at least one checkbox is clicked or not
     if (!isCheckboxChecked()) {
-          // Preventing reload
+        // Preventing reload
         event.preventDefault();
-        alert("Please select at least one time duration for appointment.");
+        swal("Time Not Selected", "Please choose a time when you are available", "warning");
         return;
     }
 });

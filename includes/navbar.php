@@ -29,12 +29,12 @@
                     <a class="nav-link text-white" href="administration.php">Admin</a>
                 </li>
             </ul>
-            <div class="d-flex flex-column flex-lg-row align-items-lg-center">
-                
-                <?php
-                if(!isset($_SESSION['username']))
-                {
-                    ?>
+
+
+            <?php
+            if (!isset($_SESSION['username'])) {
+            ?>
+                <div class="d-flex flex-column flex-lg-row align-items-lg-center">
                     <a href="tel:03 9925 2000" class="me-0 me-lg-2 mb-2 mb-lg-0">
                         <button class="btn btn-lg btn-outline-info w-100">
                             <span class="ms-2">03 9925 2000</span>
@@ -45,17 +45,14 @@
                         <button class="btn btn-lg btn-warning">Book Now<span class="ms-2"><i class="fa-solid fa-right-to-bracket"></i></span>
                         </button>
                     </a>
-                    <?php
-                }
-                else
-                {
-                    ?>
-                        <img src="assets/profile.png" height="50px" alt="Profile">
-                    <?php
-                }
-                ?>
-                
-            </div>
+                </div>
+            <?php
+            } else {
+            ?>
+                <img src="assets/profile.png" class="img-fluid" width="40px" height="40px" alt="Profile">
+            <?php
+            }
+            ?>
         </div>
     </div>
 </nav>

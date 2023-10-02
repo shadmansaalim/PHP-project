@@ -121,3 +121,10 @@
       }
     }
 
+
+
+.modal .btn-close{
+  background-color: lightgray;
+  border-radius: 50%;
+  padding: 10px !important;
+}

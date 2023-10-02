@@ -1,5 +1,8 @@
 Stephen : Drs123!
 Abigale : Dra456!
 Kiyoko : Nki789!
+admin@admin.com:12345
+
+test1:ADD#$%
+test2:12345
 saalim:123456
-test:123456

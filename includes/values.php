@@ -1,10 +1,11 @@
 <section id="values" class="py-5">
     <div class="mx-auto mb-5 col-lg-8">
         <h2 class="fw-bold">Our Core Values</h2>
-        <p class="text-start">At Emergency Ambulance Service our sole focus is the lives we touch every
-            day. The communities we serve are more than just people in need: they’re our friends, neighbors,
-            and classmates. Our connection to the community is why we never forget that the people we serve
-            are our number one priority.</p>
+        <p class="text-start"> Russel Street Medical opened in 2020 and is located in Melbourne’s CBD at 340 Russel Street
+            Melbourne, just opposite The Old Melbourne Jail and within walking distance of Melbourne
+            Central Train Station. We strive to help all of our patients with a focus on preventative
+            health care, a view to managing chronic health conditions with a holistic approach, and with
+            access to a wide range of specialist care providers when needed.</p>
     </div>
     <div class="row row-cols-1 row-cols-lg-3 mx-auto my-5 g-4">
         <div class="col">
@@ -30,7 +31,7 @@
                 <i class="fas fa-balance-scale"></i>
                 <h4 class="mt-2 fw-bold value-title">Integrity</h4>
                 <hr />
-                <p class="mt-3 text-muted">Emergency Ambulance Service was built on integrity. We believe in
+                <p class="mt-3 text-muted">Russel Street Medical was built on integrity. We believe in
                     honesty, responsibility and hard work.</p>
             </div>
         </div>
